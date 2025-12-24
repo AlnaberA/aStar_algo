@@ -45,7 +45,3 @@ The A* algorithm is an informed search algorithm that uses heuristics to efficie
 - **Heuristic Function**: A* uses a heuristic to estimate the cost from the current node to the goal, guiding the search process.
 - **Cost Function**: It maintains a cost function that tracks the total cost from the start node to the current node.
 - **Optimal Pathfinding**: A* guarantees the shortest path if the heuristic is admissible (never overestimates the true cost).
-
-## Contributing
-
-If you would like to contribute to this project, feel free to submit a pull request or open an issue for discussion. Your contributions are welcome!
