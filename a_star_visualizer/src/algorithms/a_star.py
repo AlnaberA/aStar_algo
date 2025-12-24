@@ -7,6 +7,7 @@ class AStar:
         self.g_score = {}
         self.f_score = {}
 
+    # Heuristic function: Manhattan distance for grid-based pathfinding
     def heuristic(self, node, goal):
         return abs(node[0] - goal[0]) + abs(node[1] - goal[1])
 
